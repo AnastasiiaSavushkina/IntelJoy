@@ -1,0 +1,120 @@
+@import url("static/fonts/Montserrat/fonts/webfonts/Montserrat.css");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+h3{
+    margin: 0 2% 2% 5%;
+    clear: both;
+}
+
+h5 {
+    color: #282E51;
+}
+
+a:link { 
+    text-decoration: none;
+}
+
+.card_group {
+    width: 100%;
+    height: auto;
+}
+
+.img_card {
+    float: left; /* Выстраиваем элементы по горизонтали */
+    overflow: auto;
+    margin: 0 0% 5% 5%; /* Отступ слева и справа */
+    border-radius: 5px; /* Радиус скругления */
+    padding: 2%; /* Поля */
+    background: #F4F0EF;
+}
+
+.img_card_color {
+    background: #FCE0D9;
+    border-radius: 5px;
+}
+
+.img_card:hover {
+    background-color: #FFCCBD; /* Add a hover color */
+}
+
+.task_card {
+    float: none;
+    overflow: auto;
+    width: auto;
+    margin: 0 5% 2% 5%; /* Отступ слева и справа*/
+    border-radius: 5px; /* Радиус скругления */
+    padding: 2%; /* Поля */
+    background: #F4F0EF;
+    
+}
+
+.task_card a {
+    text-align: right;
+}
+
+.task_card_color {
+    background: #FCE0D9;
+    border-radius: 5px;
+    float: left;
+}
+
+.container {
+    width: auto;
+    margin-left: 9rem 
+}
+
+.task_card:hover {
+    background-color: #FFCCBD; /* Add a hover color */
+}
+
+
+.progressbar { 
+    height: 10px;
+    width: 100%;
+    background: #F9CD75;
+    border-radius: 5px;
+    float: left
+    
+}
+
+.progressbar > span {
+    display: block;
+    height: 100%;
+    background-color: #7CAB41;
+    border-radius: 5px;
+    float: left
+}
+
+
+.icon_bar {
+    width: 100%; /* Full-width */
+    height: 60px;
+    /* position: fixed; */
+    position: sticky;
+    bottom: 0;
+    background-color: #F4F0EF; /*  background */
+    overflow: hidden; /* Overflow due to float */
+}
+
+.icon_bar a {
+    float: left; /* Float links side by side */
+    /* display: block; */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    /* color: #000000; Black text color */
+    font-size: 10px; /* Increased font size */
+    height: 100%;
+}
+
+.icon_bar a:hover {
+    background-color: #FFCCBD; /* Add a hover color */
+}
+
