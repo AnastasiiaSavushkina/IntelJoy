@@ -19,7 +19,14 @@ h5 {
 a:link { 
     text-decoration: none;
 }
+.new_style_card{
+    text-align: center;
+    font-size: 32px;
+    background: #ffdfd7;
+    margin-bottom: 1%;
+    padding: 2px
 
+}
 .card_group {
     width: 100%;
     height: auto;
